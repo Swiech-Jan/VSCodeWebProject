@@ -1,6 +1,6 @@
 body {
   font-family: "Lexend Peta", sans-serif;
-  color: rgb(236, 232, 232);
+  color: rgb(240, 240, 240);
   background-color: rgb(237, 243, 243);
 }
 
@@ -13,7 +13,8 @@ body {
 #logo {
   margin-top: 50px;
   height: 150px;
-  background-color: rgb(116, 114, 114);
+  font-weight: bold;
+  background-color: rgb(170, 165, 165);
 }
 
 #topbarR {
@@ -32,7 +33,7 @@ body {
 }
 
 #menu {
-  background-color: rgb(118, 143, 143);
+  background-color: rgb(120, 140, 140);
   margin-top: 0px;
 }
 
@@ -45,57 +46,58 @@ body {
   font-weight: bold;
   height: 40px;
   padding: 20px;
-  border-right: 8px dotted rgb(58, 59, 59);
+  border-right: 6px dotted rgb(60, 60, 60);
 }
 
 .option:hover {
-  background-color: rgb(95, 170, 204);
+  background-color: rgb(95, 170, 205);
   cursor: pointer;
 }
 
 #about {
-  background-color: rgb(116, 114, 114);
-  height: 60px;
-  font-size: 50px;
+  background-color: rgb(115, 115, 115);
+  height: 45px;
+  font-size: 40px;
   font-weight: bold;
   padding: 20px;
 }
 
 .optionL {
   font-size: 20px;
-  background-color: rgb(236, 112, 90);
-  height: 30px;
-  padding: 20px;
-  border-bottom: 8px dotted rgb(58, 59, 59);
+  height: 25px;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 6px dotted rgb(60, 60, 60);
 }
 
 .optionL:hover {
-  background-color: rgb(95, 170, 204);
-  color: white;
+  background-color: rgb(95, 170, 205);
   cursor: pointer;
 }
 
 #sidebar {
   float: left;
   width: 270px;
-  height: 450px;
-  padding: 0px;
-  background-color: rgb(236, 112, 90);
+  height: 400px;
+  padding: 10px;
+  background-color: rgb(110, 170, 115);
   text-align: center;
-  font-size: 25px;
-  border-right: 8px dotted rgb(58, 59, 59);
+  border-right: 6px dotted rgb(60, 60, 60);
 }
 
 #aboutTest {
-  float: left;
-  width: 1042px;
-  background-color: rgb(118, 143, 143);
-  height: 450px;
-  font-size: 27px;
+  float: right;
+  width: 1064px;
+  background-color: rgb(120, 140, 140);
+  height: 380px;
+  font-size: 22px;
   text-align: justify;
   padding: 20px;
 }
 
 #footer {
-  clear: both;
+  background-color: rgb(115, 115, 115);
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
 }
