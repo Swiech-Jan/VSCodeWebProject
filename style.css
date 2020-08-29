@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-  width: 1700px;
+  width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16,18 +16,18 @@ body {
   background-color: rgb(116, 114, 114);
 }
 
-#topbarL {
+#topbarR {
   margin-top: 10px;
   float: right;
-  margin-right: 700px;
+  margin-right: 500px;
   width: 50px;
 }
 
-#topbarR {
+#topbarL {
   float: left;
-  margin-top: 0px;
+  margin-top: 8px;
   padding: 20px;
-  width: 800px;
+  width: 600px;
   font-size: 70px;
 }
 
@@ -61,9 +61,41 @@ body {
   padding: 20px;
 }
 
+.optionL {
+  font-size: 20px;
+  background-color: rgb(236, 112, 90);
+  height: 30px;
+  padding: 20px;
+  border-bottom: 8px dotted rgb(58, 59, 59);
+}
+
+.optionL:hover {
+  background-color: rgb(95, 170, 204);
+  color: white;
+  cursor: pointer;
+}
+
+#sidebar {
+  float: left;
+  width: 270px;
+  height: 450px;
+  padding: 0px;
+  background-color: rgb(236, 112, 90);
+  text-align: center;
+  font-size: 25px;
+  border-right: 8px dotted rgb(58, 59, 59);
+}
+
 #aboutTest {
+  float: left;
+  width: 1042px;
   background-color: rgb(118, 143, 143);
-  height: 350px;
+  height: 450px;
   font-size: 27px;
   text-align: justify;
   padding: 20px;
+}
+
+#footer {
+  clear: both;
+}
