@@ -91,6 +91,7 @@ body {
 }
 
 #footer {
+  clear: both;
   background-color: rgb(105, 105, 105);
   font-size: 20px;
   text-align: center;
