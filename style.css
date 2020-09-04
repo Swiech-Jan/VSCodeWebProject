@@ -1,99 +1,202 @@
-body {
-  font-family: "Lexend Peta", sans-serif;
-  color: rgb(250, 250, 250);
+body{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	
 }
 
-#container {
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(170, 165, 165);
+#container{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
 }
 
-#topBar {
-  margin-top: 50px;
-  height: 150px;
+.rectangle{
+	width: 960px;
+	margin:20px;
+	text-align:center;
+	height: 120px;
 }
 
-#title {
-  float: left;
-  margin-top: 9px;
-  padding: 20px;
-  font-size: 70px;
-  font-weight: bold;
+.square{
+	width:50%;
+	float:left;
 }
 
-#image {
-  float: right;
-  margin-top: 8px;
-  margin-right: 500px;
-  width: 50px;
+#logo{
+	float:left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:80px;
+	width:600px;	
+	text-align:left;
+	margin-top:32px;
 }
 
-#menu1 {
-  background-color: rgb(120, 140, 140);
-  font-size: 35px;
-  font-weight: bold;
+.logolink{
+	color:#ffffff;
+	text-decoration:none;
 }
 
-.option {
-  float: left;
-  margin-top: 40px;
-  min-width: 50px;
-  height: 40px;
-  padding: 20px;
-  border-right: 6px dotted rgb(60, 60, 60);
+#photo{
+	float:left;
+	margin-left: 70px;
+	margin-top:3px;
 }
 
-.option:hover {
-  background-color: rgb(95, 170, 205);
-  cursor: pointer;
+.tile1{
+	float:left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align:center;
+}
+.tile1:hover{
+	background-color: #2084c2;
 }
 
-#about {
-  height: 45px;
-  font-size: 40px;
-  font-weight: bold;
-  padding: 20px;
+
+
+.tile2{
+	float:left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	text-align:center;
+}
+.tile2:hover{
+	background-color: #555555;
 }
 
-#sidebar {
-  float: left;
-  width: 270px;
-  height: 400px;
-  padding: 10px;
-  background-color: rgb(110, 170, 115);
-  text-align: center;
-  border-right: 6px dotted rgb(60, 60, 60);
+.tile3{
+	float:left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #93c748;
+	text-align:center;
+}
+.tile3:hover{
+	background-color: #82b637;
 }
 
-.optionL {
-  font-size: 20px;
-  height: 25px;
-  padding: 10px;
-  font-weight: bold;
-  border-bottom: 6px dotted rgb(60, 60, 60);
+.tile4{
+	margin: 10px;
+	width: 420px;
+	height: 82px;
+	background-color: #ee5a32;
+	text-align:center;
+	font-size:25px;
+	padding:30px;
+	line-height:150%;
 }
 
-.optionL:hover {
-  background-color: rgb(95, 170, 205);
-  cursor: pointer;
+
+.tile5{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color:#666666;
+	text-align:justify;
+	padding:30px;
+	
 }
 
-#aboutTest {
-  float: left;
-  width: 1064px;
-  background-color: rgb(120, 140, 140);
-  height: 380px;
-  font-size: 22px;
-  text-align: justify;
-  padding: 20px;
+.linkedin{
+	float:left;
+	margin: 10px;
+	width: 147px;
+	height: 142px;
+	background-color: #3c8eba;
+	text-align:center;
+}
+.linkedin:hover{
+	background-color: #2084c2;
 }
 
-#footer {
-  clear: both;
-  background-color: rgb(105, 105, 105);
-  font-size: 20px;
-  text-align: center;
-  padding: 5px;
+
+.facebook{
+	float:left;
+	margin: 10px;
+	width: 147px;
+	height: 142px;
+	background-color: #4668b3;
+	text-align:center;
 }
+.facebook:hover{
+	background-color: #3557a2;
+}
+
+.github{
+	float:left;
+	margin: 10px;
+	width: 146px;
+	height: 142px;
+	background-color: #ee5a32;
+	text-align:center;
+}
+.github:hover{
+	background-color: #dd4921;
+}
+
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration:none;
+	display:block;
+ 	width: 230px;
+	height: 142px;
+}
+
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration:none;
+	display:block;
+	width:145px;
+	height:142px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
